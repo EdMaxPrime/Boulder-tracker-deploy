@@ -1,0 +1,14 @@
+.collapsible {
+	z-index: 100;
+}
+
+.floating-bottom {
+	position: absolute;
+}
+
+.floating-bottom div:last-child {
+	position: fixed;
+	bottom: 1in;
+	left: 0;
+	right: 0;
+}

@@ -1,0 +1,30 @@
+body {
+	background-color: #DE7C5A;
+}
+
+.title {
+	font-size: 4em;
+	text-align: center;
+	color: #280000;
+}
+
+.subtitle {
+	color: #570000;
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 2em;
+}
+
+.centered {
+	text-align: center;
+}
+
+.no-underline {
+	text-decoration: none;
+}
+
+.body p {
+	margin-left: 10%;
+	margin-right: 10%;
+}

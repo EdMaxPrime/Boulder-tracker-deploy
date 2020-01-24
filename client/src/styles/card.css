@@ -1,0 +1,49 @@
+/* Div wrapper around cards. Sets background color and text color, mostly. */
+.card {
+	background-color: #A25039;
+	color: #280000;
+	text-decoration: none;
+	margin: 1em 10%;
+	border: 1px solid rgba(0, 0, 0, 0.125);
+	border-radius: 0.25rem;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+.card-light {
+	background-color: #FDFFFF;
+}
+
+/* Everything except images should be within the card body */
+.card-body {
+	-webkit-box-flex: 1;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	padding: 1.25rem;
+}
+
+/* h5 */
+.card-title {
+	margin-bottom: .75rem;
+	margin-top: 0;
+	font-size: 1.25rem;
+	font-weight: 500;
+	line-height: 1.2;
+}
+
+/* h6 */
+.card-subtitle {
+	/*color: #6c757d;*/
+	color: #570000;
+	margin-bottom: .5rem;
+	margin-top: -.375rem;
+	font-size: 1rem;
+	font-weight: 500;
+	line-height: 1.2;
+}
+
+/* The big text content */
+.card-text {
+	margin-bottom: 1rem;
+}
